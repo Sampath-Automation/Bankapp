@@ -22,6 +22,7 @@ public class FdTestCase extends Wrapper_Class {
 	@Parameters("browser")
 	@BeforeClass
   
+  public WebDriver driver;
   public void launchBrowser(String browser) throws InterruptedException {
 	  
 	  driver= launchBrowser(browser,"https://www.axisbank.com/retail/calculators/fd-calculator");
