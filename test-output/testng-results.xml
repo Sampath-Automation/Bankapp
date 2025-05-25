@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="28576" started-at="2020-10-14T19:53:27 IST" finished-at="2020-10-14T19:53:56 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="28576" started-at="2020-10-14T19:53:27 IST" finished-at="2020-10-14T19:53:56 IST">
+      <class name="axisbank.FdTestCase">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:axisbank.FdTestCase@10bbd20a]" name="launchBrowser" is-config="true" duration-ms="21821" started-at="2020-10-14T19:53:28 IST" finished-at="2020-10-14T19:53:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testCase()[pri:0, instance:axisbank.FdTestCase@10bbd20a]" name="testCase" duration-ms="6530" started-at="2020-10-14T19:53:49 IST" finished-at="2020-10-14T19:53:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:axisbank.FdTestCase@10bbd20a]" name="closeBrowser" is-config="true" duration-ms="174" started-at="2020-10-14T19:53:56 IST" finished-at="2020-10-14T19:53:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- axisbank.FdTestCase -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
