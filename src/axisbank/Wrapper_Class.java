@@ -26,7 +26,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 
 
 public class Wrapper_Class {
-	WebDriver driver;
+public	WebDriver driver;
 	static int COUNTER=0;
 	public WebDriver launchBrowser(String browser,String URL) throws InterruptedException
 	{
