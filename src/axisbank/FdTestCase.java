@@ -14,7 +14,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 
 public class FdTestCase extends Wrapper_Class {
-	WebDriver driver;
+	public WebDriver driver;
 	
 	FdPage fd ;
 	
